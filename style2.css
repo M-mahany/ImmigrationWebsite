@@ -1,0 +1,190 @@
+#nav{
+    background-color: rgb(39, 39, 39);
+    padding: 0px;
+    display:grid;
+    width: 100%;
+    grid-template-columns: repeat(8,minmax(auto,130px));
+    /*OLD 100px 100px 100px 100px 130px 150px auto 120px;*/
+    grid-template-rows:50px 40px;
+    /*below code makes the navi bar fixed means will always be displayed */
+    position: fixed;
+    transition: top 0.3s;
+    top: 0;
+   left: 0;
+}
+a{
+    font-size: 18px;
+    text-align: center; 
+    text-decoration: none;
+   color: whitesmoke; 
+   }
+/*
+.right{
+    margin-left: auto;
+}*/
+/*below code identifies the selected nav button*/
+nav#nav a:hover,nav#nav a:active {
+    background-color:rgb(236, 0, 0);
+    text-decoration: none;
+}
+body{
+    margin:0PX;
+    padding: 0px;
+}
+#p1{
+    background-color: whitesmoke;
+    font-size: 40px;
+    margin:0px;
+    text-align:center;
+grid-area:1/1/1/column-end;
+color:rgb(236, 0, 0);
+}
+#home{
+   grid-area: 2/1/2/1;
+   padding: 11PX;
+}
+#visit{
+    padding: 11px;
+    grid-area: 2/2/2/2;
+}
+#work{
+    padding: 11px;
+    grid-area: 2/3/2/3;
+}
+#study{
+    padding: 11px;
+    grid-area: 2/4/2/4;
+}
+#business{
+    padding: 11px;
+        grid-area: 2/5/2/5;
+    }
+#immigration{
+    padding: 11px;
+    grid-area: 2/6/2/6;
+}
+#fp{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:600px;
+    background-image: url("https://wallpaperaccess.com/full/23632.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    margin-bottom: 0%;
+text-align: center;
+font-size: 60px;
+color: rgb(255, 255, 255);
+text-shadow: 4px 4px 4px rgb(39, 39, 39),0 0 4px rgb(39, 39, 39);
+}
+.but1{
+    font-size: 18px;
+    margin: 15px;
+    color:rgb(255, 255, 255);
+    border:0px;
+    background-color: rgb(214, 10, 10);
+    border-radius: 15px;
+    height: 50px;
+    width:250px;
+}
+
+div#fp .but1:hover,div#fp .but1:active {
+    background-color:transparent;
+    text-decoration: none;
+    border: 2px solid whitesmoke;
+    text-shadow: 4px 4px 4px rgb(39, 39, 39),0 0 4px rgb(39, 39, 39);
+}
+.sp{
+    border:1px solid transparent;
+    height:auto;
+    background-color:whitesmoke;
+}
+h2{
+    font-style:oblique;
+text-align: center;
+font-size: 35px;
+color: rgb(214, 10, 10);
+}
+.Container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.box{
+    margin: 10px;
+    height: auto;
+    font-size: 20px;
+    width: 400px;
+    border:0.5px solid rgb(194, 194, 194);
+    border-radius: 20px;
+    background-color:rgb(240, 239, 239);
+}
+.Parabox1{
+    color:rgb(236, 0, 0) ;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+.Para2box1{
+    color: rgb(46, 46, 46);
+    font-size: 20px;
+    margin-left: 20px;
+}
+.ul1box1{
+    color: rgb(46, 46, 46);
+    font-size: 20px;
+    margin: 6px;
+}
+.imgbox1{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.butbox1{
+    margin: 20px;
+background-color: rgb(236, 0, 0);
+color: whitesmoke;
+font-size: 16px;
+border: 0px;
+width: 120px;
+height: 30px;
+}
+div.sp .butbox1:hover{
+    background-color:rgb(253, 11, 11) ;
+}
+.Thirdp{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: AUTO;
+    width: 100%;
+    background-image: url("https://cdn.wallpapersafari.com/22/91/GYe0gz.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h3{
+    font-size: 35px;
+    color:rgb(253, 11, 11) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 4px 4px 4px rgb(255, 255, 255),0 0 4px rgb(39, 39, 39);
+}
+.ul3p{
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px rgb(39, 39, 39),0 0 4px rgb(39, 39, 39);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 65%;
+}
